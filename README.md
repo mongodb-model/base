@@ -5,21 +5,21 @@
 ### Installation
 
 ```bash
-$ yarn add @eweah/base 
+$ yarn add @mongodb-model/base 
 
 ```
  or 
 
 ```bash
 
-$ npm i @eweah/base
+$ npm i @mongodb-model/base
 
 ```
 
 ### Simple Usage Example
 
 ```bash
- const Base = require('@eweah/base');
+ const Base = require('@mongodb-model/base');
  const base = new Base();
  base.apiGet();
  base.on('apiGet', data => console.log(data));
@@ -28,7 +28,7 @@ $ npm i @eweah/base
 ```
 or 
 ```bash
- class MyWonderfulClass extends require('@eweah/base') {
+ class MyWonderfulClass extends require('@mongodb-model/base') {
 
     constructor(...arrayOfObjects) {
 
